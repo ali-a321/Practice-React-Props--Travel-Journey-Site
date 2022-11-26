@@ -1,0 +1,67 @@
+body{
+  margin: 0 ;
+}
+.App {
+  margin: 0;
+  font-size: 1rem;
+}
+.headerContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightcoral;
+  padding: 1rem;
+  color: white;
+  width: 100vw;
+}
+.earth{
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wholeContainer{
+  display: flex;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.infoContainer{
+  margin-left: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.map{
+  width: 1rem;
+  height: 1rem;
+}
+a{
+  margin-left: 5px;
+}
+.title{
+  font-weight: bold;
+  font-size: 2rem;
+}
+.date{
+  font-weight: bold;
+}
+
+.picture{
+  width: 250px;
+  height: 250px;
+  border-radius: 5px;
+  
+}
+
+.anchor{
+  color: gray;
+  font-size: 0.8rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
