@@ -5,11 +5,30 @@ body{
   margin: 0;
   font-size: 1rem;
 }
-.headerContainer{
+#dark-Mode{
+  margin: 0;
+  font-size: 1rem;
+  background-color: #121212;
+  color: whitesmoke;
+}
+#light-Mode{
+
+}
+
+#header-light{
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: lightcoral;
+  padding: 1rem;
+  color: white;
+  width: 100vw;
+}
+#header-dark{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(55, 55, 55);
   padding: 1rem;
   color: white;
   width: 100vw;
@@ -21,6 +40,19 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.dark-btn{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.darkmode{
+  display: flex;
+  margin-top: 5px;
+  width: 40px;
+  height: 20px;
+  border-radius: 100px;
+   cursor: pointer;
 }
 .wholeContainer{
   display: flex;
